@@ -1,0 +1,135 @@
+li {
+  list-style: none;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #337079;
+  color: white;
+}
+
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.nav-list {
+    line-height: 100px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.nav-list a {
+  color: white;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.search {
+  float: left;
+}
+
+.contents-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+
+.contents-item {
+  display: inline-block;
+}
+
+.contents-item-left {
+  float: left;
+
+}
+
+.contents-item-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contents-price {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.contents-price span {
+  color: red;
+}
+
+.buy {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.review-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.review-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list a {
+  padding-bottom: 20px;
+  color: white;
+}
